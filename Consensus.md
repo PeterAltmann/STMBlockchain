@@ -124,17 +124,17 @@ Many questions impact the suitability of a given consensus algorithm, and by ext
 
 <span style="color:red;">TABLE X. High level comparative differences between typical consensus algorithms</span>
 
- |POW|POS|pBFT|fBFT|PoET|
+ ||POW|POS|pBFT|fBFT|PoET|
  | --- | --- | --- | --- | --- | --- |
- Node identity management | None | None | Trusted list | Varies | Varies
- Blockchain type | Open | Varies | Permissioned | Open | Varies
- State finality | Probabilistic | Probabilistic | Immediate | Immediate | Probabilistic
- State change speed | Low | Medium | High | High | Medium
- Incentive structure | On-chain token | On-chain token | Off-chain costs | Off-chain costs | Off-chain costs
- Commitment | Physical resource | Pecuniary resource | Social resource | Varies | Multiple
- Trust | Processual | Processual | Social and institutional | Varies | Multiple
- Node scalability | High | High | Low (<100) | High | High
- Adversary tolerance | $$<=25%$$ of hash rate | $$<=51%$$ of stake, but depends on algorithm | $$<=1/3$$ faulty replicas | $$<=1/3$$ faulty replicas | Unknown
+ |Node identity management | None | None | Trusted list | Varies | Varies|
+ |Blockchain type | Open | Varies | Permissioned | Open | Varies|
+ |State finality | Probabilistic | Probabilistic | Immediate | Immediate | Probabilistic|
+ |State change speed | Low | Medium | High | High | Medium|
+ |Incentive structure | On-chain token | On-chain token | Off-chain costs | Off-chain costs | Off-chain costs|
+ |Commitment | Physical resource | Pecuniary resource | Social resource | Varies | Multiple|
+ |Trust | Processual | Processual | Social and institutional | Varies | Multiple|
+ |Node scalability | High | High | Low (<100) | High | High|
+ |Adversary tolerance | $$<=25%$$ of hash rate | $$<=51%$$ of stake, but depends on algorithm | $$<=1/3$$ faulty replicas | $$<=1/3$$ faulty replicas | Unknown|
 
 Note that individual variations may exist between different projects in how they employ a specific algorithm and that there exist different multilayered solutions that alter the actual performance on these blockchain platforms. The comparison in Table X does not take into account multilayered solutions (e.g., lightning network, plasma, sharding etc.). Next, each row is explained.
 
