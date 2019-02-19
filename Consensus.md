@@ -124,8 +124,8 @@ Many questions impact the suitability of a given consensus algorithm, and by ext
 
 <span style="color:red;">TABLE X. High level comparative differences between typical consensus algorithms</span>
 
- | POW | POS | pBFT | fBFT | PoET
- --- | --- | --- | --- | --- | ---
+ |POW|POS|pBFT|fBFT|PoET|
+ | --- | --- | --- | --- | --- | --- |
  Node identity management | None | None | Trusted list | Varies | Varies
  Blockchain type | Open | Varies | Permissioned | Open | Varies
  State finality | Probabilistic | Probabilistic | Immediate | Immediate | Probabilistic
